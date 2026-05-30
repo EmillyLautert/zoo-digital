@@ -20,6 +20,4 @@ public abstract class Mamifero extends Animal {
     public void amamentar() {
         IO.println(this.getNome() + " está amamentando seus filhotinhos.");
     }
-    
-    
 }
