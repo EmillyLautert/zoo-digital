@@ -11,6 +11,11 @@ public class Pato extends Ave implements Voo, Corrida, Nado {
     }
 
     @Override
+    public void comer() {
+        this.comer("ração e pequenos insetos");
+    }
+
+    @Override
     public void nadar() {
         IO.println(this.getNome() + " está nadando elegantemente.");
     }
