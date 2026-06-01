@@ -51,7 +51,7 @@ public class ZooDigitalApp {
     }
 
     private static void exibirMenu() {
-        IO.println("\n===== ZOO DIGITAL =====");
+        IO.println("===== ZOO DIGITAL =====");
         IO.println("1 - Cadastrar Animal");
         IO.println("2 - Listar Todos os Animais");
         IO.println("3 - Listar Animais Corredores");
@@ -63,7 +63,7 @@ public class ZooDigitalApp {
     }
 
     private static void cadastrarAnimal() {
-        IO.println("\n===== CADASTRAR ANIMAL =====");
+        IO.println("===== CADASTRAR ANIMAL =====");
         IO.println("1 - Cachorro");
         IO.println("2 - Gato");
         IO.println("3 - Golfinho");
@@ -167,7 +167,7 @@ public class ZooDigitalApp {
     }
 
     private static void listarTodosAnimais() {
-        IO.println("\n===== TODOS OS ANIMAIS =====");
+        IO.println("===== TODOS OS ANIMAIS =====");
 
         if (animais.isEmpty()) {
             IO.println("Nenhum animal cadastrado.");
@@ -184,7 +184,7 @@ public class ZooDigitalApp {
     }
 
     private static void listarCorredores() {
-        IO.println("\n===== ANIMAIS CORREDORES =====");
+        IO.println("===== ANIMAIS CORREDORES =====");
 
         boolean encontrou = false;
 
@@ -203,7 +203,7 @@ public class ZooDigitalApp {
     }
 
     private static void listarNadadores() {
-        IO.println("\n===== ANIMAIS NADADORES =====");
+        IO.println("===== ANIMAIS NADADORES =====");
 
         boolean encontrou = false;
 
@@ -222,7 +222,7 @@ public class ZooDigitalApp {
     }
 
     private static void listarVoadores() {
-        IO.println("\n===== ANIMAIS VOADORES =====");
+        IO.println("===== ANIMAIS VOADORES =====");
 
         boolean encontrou = false;
 
@@ -241,7 +241,7 @@ public class ZooDigitalApp {
     }
 
     private static void listarPredadores() {
-        IO.println("\n===== ANIMAIS PREDADORES =====");
+        IO.println("===== ANIMAIS PREDADORES =====");
 
         boolean encontrou = false;
 
@@ -260,7 +260,7 @@ public class ZooDigitalApp {
     }
 
     private static void exibirTotalAnimais() {
-        IO.println("\nTotal de animais criados: " + Animal.getContador());
+        IO.println("Total de animais criados: " + Animal.getContador());
     }
 
     private static int lerInteiro(String mensagem) {
